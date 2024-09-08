@@ -14,12 +14,12 @@ class House:
 
 
 
-h1 = House('Негры пидоры', 10)
-print(House.house_history)
-h2 = House('Негры', 20)
-print(House.house_history)
-h3 = House('Пидоры', 30)
-print(House.house_history)
+h1 = House('ЖК Эльбрус', 10)
+print(House.houses_history)
+h2 = House('ЖК Акация', 20)
+print(House.houses_history)
+h3 = House('ЖК Матрёшки', 20)
+print(House.houses_history)
 
 del h2
 del h3
